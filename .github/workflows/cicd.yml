@@ -13,8 +13,8 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     strategy:
-      matrix:
-        node-version: [18, 20]
+        matrix:
+            node-version: [18, 20]
 
     steps:
       - name: Checkout code
